@@ -24,14 +24,20 @@ struct ContentView: View {
                 Color.green
                     .edgesIgnoringSafeArea(.all)
             }
-            VStack {
+            VStack() {
                 Spacer()
-                Text(String(format: "%.1f", timerValue1))
-                    .font(.system(size: 100, design: .monospaced))
-                    .foregroundColor(.white)
-                Text(String(format: "%.1f", timerValue2))
-                    .font(.system(size: 100, design: .monospaced))
-                    .foregroundColor(.white)
+                VStack (alignment: .trailing) {
+                    Text(String(format: "%.1f", timerValue1))
+                        .font(.system(size: 300, design: .monospaced))
+                        .foregroundColor(.white)
+                        .minimumScaleFactor(0.1)
+                    if timerValue2 > 0 {
+                        Text(String(format: "%.1f", timerValue2))
+                            .font(.system(size: 300, design: .monospaced))
+                            .foregroundColor(.white)
+                            .minimumScaleFactor(0.1)
+                    }
+                }
                 Spacer()
                 Button {
                     if let timerHandler {
