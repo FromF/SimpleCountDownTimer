@@ -1,6 +1,7 @@
 {
   "images" : [
     {
+      "filename" : "iconmonstr-time-16.png",
       "idiom" : "universal",
       "platform" : "ios",
       "size" : "1024x1024"
