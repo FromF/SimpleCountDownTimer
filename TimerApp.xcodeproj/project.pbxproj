@@ -11,6 +11,9 @@
 		9D26F3E72A2DA5F60088F8B7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D26F3E62A2DA5F60088F8B7 /* ContentView.swift */; };
 		9D26F3E92A2DA5F80088F8B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D26F3E82A2DA5F80088F8B7 /* Assets.xcassets */; };
 		9D26F3EC2A2DA5F80088F8B7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D26F3EB2A2DA5F80088F8B7 /* Preview Assets.xcassets */; };
+		9D5D05152BA030C400CFDA8F /* Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5D05142BA030C400CFDA8F /* Path.swift */; };
+		9D5D05172BA0311C00CFDA8F /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5D05162BA0311C00CFDA8F /* SettingView.swift */; };
+		9D5D05192BA0365300CFDA8F /* Default.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5D05182BA0365300CFDA8F /* Default.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		9D26F3E62A2DA5F60088F8B7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9D26F3E82A2DA5F80088F8B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D26F3EB2A2DA5F80088F8B7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9D5D05142BA030C400CFDA8F /* Path.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Path.swift; sourceTree = "<group>"; };
+		9D5D05162BA0311C00CFDA8F /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		9D5D05182BA0365300CFDA8F /* Default.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Default.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +58,10 @@
 			isa = PBXGroup;
 			children = (
 				9D26F3E42A2DA5F60088F8B7 /* TimerAppApp.swift */,
+				9D5D05182BA0365300CFDA8F /* Default.swift */,
+				9D5D05142BA030C400CFDA8F /* Path.swift */,
 				9D26F3E62A2DA5F60088F8B7 /* ContentView.swift */,
+				9D5D05162BA0311C00CFDA8F /* SettingView.swift */,
 				9D26F3E82A2DA5F80088F8B7 /* Assets.xcassets */,
 				9D26F3EA2A2DA5F80088F8B7 /* Preview Content */,
 			);
@@ -137,7 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D5D05192BA0365300CFDA8F /* Default.swift in Sources */,
 				9D26F3E72A2DA5F60088F8B7 /* ContentView.swift in Sources */,
+				9D5D05172BA0311C00CFDA8F /* SettingView.swift in Sources */,
+				9D5D05152BA030C400CFDA8F /* Path.swift in Sources */,
 				9D26F3E52A2DA5F60088F8B7 /* TimerAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
